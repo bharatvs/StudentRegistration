@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "username": "bharath@organic.com",
+      "password": "bharath@123",
+      "id": "IiLAkpm"
+    },
+    {
+      "username": "bharathkmr@gmail.com",
+      "password": "bharath@123",
+      "id": "0HGtgiA"
+    },
+    {
+      "username": "sharath@organic.com",
+      "password": "sharath@123",
+      "id": "-9TLK36"
+    },
+    {
+      "username": "chandana@organic.com",
+      "password": "chandana@123",
+      "id": "VHQKep0"
+    },
+    {
+      "username": "chaithanya@gmail.com",
+      "password": "chai@123",
+      "id": "SDNOz-a"
+    },
+    {
+      "username": "ramesh@gmail.com",
+      "password": "ramesh",
+      "id": "j5ydLWm"
+    },
+    {
+      "username": "bharath@organic.com",
+      "password": "bha",
+      "id": "ufOp6gf"
+    },
+    {
+      "username": "bharagav@gmail.com",
+      "password": "bhargav@123",
+      "id": "ZE87abb"
+    }
+  ]
+}
