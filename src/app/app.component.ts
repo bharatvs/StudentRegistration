@@ -10,7 +10,10 @@ export class AppComponent {
 
   loggedIn(){
     this.title=localStorage.getItem('username')
-    this.title=this.title.substring(0,this.title.lastIndexOf("@"));
+    if(this.title){
+      this.title=this.title.substring(0,this.title.lastIndexOf("@"));
+    }
+
     return localStorage.getItem('token');
 
   }
