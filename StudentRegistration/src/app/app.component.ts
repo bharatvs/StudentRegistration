@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +9,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'StudentRegistration';
 
+  constructor(private _router:Router){}
   loggedIn(){
     this.title=localStorage.getItem('username')
     if(this.title){
@@ -19,5 +21,6 @@ export class AppComponent {
   }
   onLogout(){
     localStorage.removeItem('token');
+    this._router.navigate(['/']);
   }
 }
